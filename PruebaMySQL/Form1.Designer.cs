@@ -37,15 +37,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 227);
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(180, 51);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(260, 23);
+            this.button1.Size = new System.Drawing.Size(101, 58);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Inserta";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -113,11 +116,28 @@
             this.label4.TabIndex = 14;
             this.label4.Text = "Salario";
             // 
+            // label5
+            // 
+            this.label5.Location = new System.Drawing.Point(15, 174);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(257, 72);
+            this.label5.TabIndex = 16;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(159, 128);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 326);
+            this.ClientSize = new System.Drawing.Size(284, 255);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
@@ -128,7 +148,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Inserta SQL";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,6 +165,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
